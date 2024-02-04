@@ -184,3 +184,15 @@ local NotiFrame = Instance.new("Frame")
 	end 
 	DiscordLib:Notification("Thông Báo" , "Nhận Cày Thuê Bán Acc v4 Ae Nào Cần IB" , 6 ,11816162894 )
 	DiscordLib:Notification("Thông Báo" , "Link Facebook Ở Phần Setting" , 6 ,11816162894 )
+----------------------------------------------------------------------------------------------------
+local player = game.Players.LocalPlayer
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Apple Hud", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({ Name = "Tab 1", Icon = "rbxassetid://16024843780", PremiumOnly = false })
+local Section = Tab:AddSection({ Name = "LocalPlayer" })
+OrionLib:MakeNotification({ Name = "Welcome!", Content = "Welcome to Apple hub!", Image = "rbxassetid://4483345998", Time = 5 })
+Tab:AddButton({ Name = "High Speed", Callback = function() player.Character.Humanoid.WalkSpeed = 500 end })
+Tab:AddButton({ Name = "High Jumppower", Callback = function() player.Character.Humanoid.JumpPower = 100 end })
+Tab:AddButton({ Name = "Low Gravity", Callback = function() game.Workspace.Gravity = 10 end })
+Tab:AddButton({ Name = "Auto Attack", Callback = function()
+isAutoAttackEnabled = not isAutoAttackEnabled end })
