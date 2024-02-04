@@ -184,7 +184,7 @@ local NotiFrame = Instance.new("Frame")
 	end 
 	DiscordLib:Notification("Thông Báo" , "Nhận Cày Thuê Bán Acc v4 Ae Nào Cần IB" , 6 ,11816162894 )
 	DiscordLib:Notification("Thông Báo" , "Link Facebook Ở Phần Setting" , 6 ,11816162894 )
-----------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
