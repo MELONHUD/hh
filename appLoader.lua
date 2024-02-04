@@ -185,23 +185,6 @@ local NotiFrame = Instance.new("Frame")
 	DiscordLib:Notification("Thông Báo" , "Nhận Cày Thuê Bán Acc v4 Ae Nào Cần IB" , 6 ,11816162894 )
 	DiscordLib:Notification("Thông Báo" , "Link Facebook Ở Phần Setting" , 6 ,11816162894 )
 ----------------------------------------------------------------------------------------------------------------------------------------------
-local linkvertise = 'https://web1s.co/1Kcn1QRzvU'
-local uniqueKey = game:HttpGet'https://mnote.pro/notes/ty6efF';
-spawn(function() 
-    repeat
-        task.wait()
-    until game:IsLoaded()
-    repeat
-        task.wait()
-    until game.Players
-    repeat
-        task.wait()
-    until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
-    wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red> Welcome To Lửa Chùa Hub <Color=/>"):Display()
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Make Lửa Chùa Hub By Bố Sơn<Color=/>"):Display()
-end)
-----------------------------------------------------------------------------------------------------------------------------------------------
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
