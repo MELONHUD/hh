@@ -82,7 +82,7 @@ MainImage.BackgroundTransparency = 1.000
 MainImage.Position = UDim2.new(0.328190297, 0, 0.209206328, 0)
 MainImage.Size = UDim2.new(0, 220, 0, 194)
 MainImage.ZIndex = 2
-MainImage.Image = "rbxassetid://11965733811"
+MainImage.Image = "rbxassetid://11965733812"
 MainImage.ImageTransparency = 1.000
 
 MainImageCorner.Name = "MainImageCorner"
